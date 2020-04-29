@@ -1,8 +1,9 @@
 ---
-layout: project
+layout: post
 title: "Testing some procedural generation techniques in Java"
 date: 2018-01-12
 excerpt: "Procedural Generation Library Tests"
+project: true
 tag: 
 - Procedural
 - content
@@ -12,7 +13,6 @@ tag:
 - lib
 - java
 comments: false
-project: true
 ---
 
 ## Summary
