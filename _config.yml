@@ -1,6 +1,6 @@
 # Site
 title:              Carter Gale
-bio:                'A pretty cool student working on all things technology.'
+bio:                'A pretty cool student making pretty cool things.'
 description:        "Have a nice day :)"
 reading_time:       true
 words_per_minute:   200
@@ -37,8 +37,8 @@ disqus_shortname:   ktar5
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
-twitter:            Ktar5
+#twitter:            Ktar5
+email:              ktarfive@gmail.com
 #facebook:           username
 github-url:         Ktar5
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
@@ -50,7 +50,7 @@ github-url:         Ktar5
 #medium:            '@username'
 #pinterest:         username
 #foursquare:        username
-steam:              Ktar5
+#steam:              Ktar5
 #dribbble:          username
 #youtube:           username
 #youtube-channel:   channel
