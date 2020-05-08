@@ -34,12 +34,12 @@
 			@include border-radius(3px,3px,3px,3px);
 		}
 	}
-	button:hover,
-	button.dl-active,
+	a:hover,
+	a.dl-active,
 	ul {
 		background: #aaa;
 	}
-	button:after {
+	a:after {
 		content: '';
 		position: absolute;
 		width: 68%;
