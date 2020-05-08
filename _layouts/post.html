@@ -26,7 +26,7 @@ layout: compress
 <!--                    <h3>{{ page.github }}</h3>-->
                     <p style="margin: 0px">{{ page.date | date_to_string }}</p>
                 </div>
-                <object data="{{ site.resume }}" width="1000" height="1000" type='application/pdf'></object>
+                <object data="{{ site.baseurl }}/assets/resume.pdf" width="1000" height="1000" type='application/pdf'></object>
                 {{ content }}
                 <div class="entry-meta">
                 {% include meta.html %}
