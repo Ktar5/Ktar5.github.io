@@ -9,7 +9,7 @@ resume:             'assets/resume.pdf'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://ktar5.github.io
+url:                http://ktar5.com
 
 # Jekyll
 permalink:          /:title/
@@ -43,7 +43,7 @@ email:              ktarfive@gmail.com
 #facebook:           username
 github-url:         Ktar5
 #stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
+linkedin:          Ktar5
 #xing:              username
 #instagram:          username
 #lastfm:            username
