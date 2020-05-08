@@ -16,7 +16,7 @@
 		top: 25px;
 		left: 25px;
 	}
-	button {
+	a {
 		top: 0;
 		left: 0;
 		background: $comp-color;
@@ -71,23 +71,8 @@
 		-moz-transform: none;
 		transform: none;
 	}
-	.dl-menuwrapper li .dl-submenu {
-		display: block;
-	}
-	.dl-menuwrapper li.dl-back {
-		display: none;
-	}
-	.dl-menuwrapper li > a:not(:only-child) {
-		background: rgba(0,0,0,0.1);
-	}
-	.dl-menuwrapper li > a:not(:only-child):after {
-		content: '';
-	}
 	.dl-menu {
 		max-height: 100%;
-	}
-	.dl-menu li {
-		display: block;
 	}
 }
 // Menu Color
@@ -95,11 +80,4 @@
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
 	background: $comp-color;
-}
-// Fix for IE
-.dl-menu li {
-	display: none
-}
-.dl-menuopen li {
-	display: block
 }
