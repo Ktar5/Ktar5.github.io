@@ -9,7 +9,7 @@ resume:             'assets/resume.pdf'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://ktar5.com
+url:                https://www.ktar5.com
 
 # Jekyll
 permalink:          /:title/
