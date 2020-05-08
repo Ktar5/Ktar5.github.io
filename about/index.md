@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About Carter
 tags: [about, ktar5, carter, programming]
 date: 2018-04-05
