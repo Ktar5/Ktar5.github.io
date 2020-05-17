@@ -12,7 +12,7 @@ layout: compress
 <body>
     <!-- Header -->
     <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
+        <div class="container animated fadeIn" style="padding: 0">
             <div class="row">
                     <a href="{{ site.url }}">
                         <img src="{{ site.logo }}" class="img-circle zoombtn">
@@ -29,15 +29,15 @@ layout: compress
 			            </a>
                     </h3>
                     {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
+                    <!-- a6ebcd, e8e8e8, others for this color VVV -->
+                  <h3 class="title" style="background-color: #a6ebcd; margin: 0px; margin-left: 0px;">
+                         <a class="btn zoombtn" style="background-color: #fff" href="{{ site.url }}/about">
                          About
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/resume">
+                         <a class="btn zoombtn" style="background-color: #fff" href="{{ site.url }}/resume">
                          Resume
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
+                         <a class="btn zoombtn" style="background-color: #fff" href="{{ site.url }}/projects">
                          Projects
                          </a>
                  </h3>

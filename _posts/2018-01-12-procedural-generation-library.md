@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Testing some procedural generation techniques in Java"
+title: "Fun With Procedural Generation in Java"
 date: 2018-01-12
 excerpt: "Procedural Generation Library Tests"
 project: true
 img: https://i.imgur.com/t9SloFo.gif
+clickme: "Check me out!"
 github: "www.github.com"
 tag: 
 - Procedural
