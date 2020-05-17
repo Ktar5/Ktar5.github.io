@@ -4,6 +4,7 @@ title: "Testing some procedural generation techniques in Java"
 date: 2018-01-12
 excerpt: "Procedural Generation Library Tests"
 project: true
+img: https://i.imgur.com/t9SloFo.gif
 github: "www.github.com"
 tag: 
 - Procedural
