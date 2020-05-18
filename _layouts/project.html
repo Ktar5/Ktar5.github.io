@@ -25,6 +25,10 @@ layout: compress
             height: 100%;
         }
 
+        .imageBackground {
+            height: 175px;
+        }
+
         .posttitle {
             transition: 1s;
             color: white!important;
@@ -74,7 +78,7 @@ layout: compress
                                             width: 100%;
                                             background: center / cover;
                                             background-image: url('{{post.img}}');
-                                            height: 175px">
+                                            ">
                                         <h2 class="mdl-card__title-text posttitle">
                                             {{ post.title }}
                                         </h2>
@@ -86,7 +90,7 @@ layout: compress
                                             background: center / cover;
                                             transition: 1s;
                                             background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{post.img}}');
-                                            height: 175px">
+                                            ">
                                         <h2 class="mdl-card__title-text posttitle">
                                             {{ post.title }}
                                         </h2>
