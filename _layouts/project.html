@@ -21,10 +21,14 @@ layout: compress
             opacity: 0;
         }
 
-.posttitle {
-                transition: 1s;
-    color: white!important;
-}
+        .headerImage:hover .imageBackground {
+            height: 100%;
+        }
+
+        .posttitle {
+            transition: 1s;
+            color: white!important;
+        }
 
 
     </style>
@@ -62,10 +66,10 @@ layout: compress
                     <ul>
                         <li something="{% increment counter %}">
                             <div class="mdl-card mdl-shadow--2dp" style="width: 100%;">
-                                <a href="{{ site.url }}{{ post.url }}" class="headerImage" 
+                                <a href="{{ site.url }}{{ post.url }}" class="headerImage"
                                 onmouseenter="opacity('{{post.img}}', 'postimage{{counter}}')"
                                 onmouseleave="fixopacity('{{post.img}}', 'postimage{{counter}}')">
-                                    <div class="mdl-card__title" style="
+                                    <div class="mdl-card__title .imageBackground" style="
                                             position: absolute;
                                             width: 100%;
                                             background: center / cover;
@@ -76,7 +80,7 @@ layout: compress
                                         </h2>
                                     </div>
                                     <div class="mdl-card__title" id="postimage{{ counter }}" style="
-z-index: 1; position: relative;
+                                            z-index: 1; position: relative;
                                             opacity: 1;
                                             width: 100%;
                                             background: center / cover;
