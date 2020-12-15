@@ -5,7 +5,7 @@ date: 2019-10-05
 excerpt: "Over the course of the past two-ish years I spent an incredible amount of time developing an indie video game called Slip 'N Slime using the LibGDX game library for Java. It is one of my most proud projects."
 project: true
 img: https://i.imgur.com/1TcvIWr.png
-github: "https://github.com/Ktar5/School-Projects"
+github: "https://github.com/Ktar5/SlimeGame"
 tag: 
 - Game Development
 - Java
@@ -14,6 +14,8 @@ comments: false
 ---
 
 Slip 'n Slime is an indie video game that I created where the goal is to solve puzzles and get to the end of the tunnel, however each time you move, you keep moving until you hit something or die.
+
+**GitHub Link:** [Slip 'n Slime Game](https://github.com/Ktar5/SlimeGame) (Please note that this was not truly meant to be open source, but is for the value it adds to my resume)
 
 ## Project Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mgd2Pc-gnlo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
