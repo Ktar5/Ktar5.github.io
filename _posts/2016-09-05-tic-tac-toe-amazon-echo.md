@@ -15,6 +15,6 @@ tag:
 comments: false
 ---
 
-Github code at: https://github.com/Ktar5/TicTacToeVoice
+Github code at: [link](https://github.com/Ktar5/TicTacToeVoice)
 
 Article is currently W.I.P.

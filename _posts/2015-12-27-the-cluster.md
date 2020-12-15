@@ -7,14 +7,13 @@ project: true
 img: https://i.imgur.com/ruh9sxO.jpg
 github: "https://github.com/ClusterMC/cluster-lib"
 tag: 
-- Procedural
-- content
-- generation
-- library
-- proc
-- lib
-- java
+- Minecraft
+- Old
+- Software
+- High School
 comments: false
 ---
+
+GitHub code at: [Link](https://github.com/ClusterMC/cluster-lib)
 
 Article is currently W.I.P.
