@@ -14,6 +14,6 @@ tag:
 comments: false
 ---
 
-Github code found here: [LINK](https://github.com/Ktar5/Texture-Splitter-Extruder)
+Github code found here: [https://github.com/Ktar5/Texture-Splitter-Extruder](https://github.com/Ktar5/Texture-Splitter-Extruder)
 
 Article is W.I.P.

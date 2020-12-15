@@ -15,6 +15,6 @@ tag:
 comments: false
 ---
 
-Github code can be found here: [link](https://github.com/Ktar5/LibGDX-TilemapEditor)
+Github code can be found here: [https://github.com/Ktar5/LibGDX-TilemapEditor](https://github.com/Ktar5/LibGDX-TilemapEditor)
 
 Article is currently W.I.P. 

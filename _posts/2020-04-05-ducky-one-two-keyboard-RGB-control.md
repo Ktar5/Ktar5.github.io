@@ -14,6 +14,6 @@ tag:
 comments: false
 ---
 
-Github code here: [Code](https://github.com/Ktar5/duckyrgb)
+Github code here: [https://github.com/Ktar5/duckyrgb](https://github.com/Ktar5/duckyrgb)
 
 Article is W.I.P. 

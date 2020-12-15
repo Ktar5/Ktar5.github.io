@@ -13,6 +13,6 @@ tag:
 comments: false
 ---
 
-Github code at: https://github.com/Ktar5/School-Projects
+Github code at: [https://github.com/Ktar5/School-Projects](https://github.com/Ktar5/School-Projects)
 
 Article is W.I.P.

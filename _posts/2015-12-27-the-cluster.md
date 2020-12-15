@@ -14,6 +14,6 @@ tag:
 comments: false
 ---
 
-GitHub code at: [Link](https://github.com/ClusterMC/cluster-lib)
+GitHub code at: [https://github.com/ClusterMC/cluster-lib](https://github.com/ClusterMC/cluster-lib)
 
 Article is currently W.I.P.
