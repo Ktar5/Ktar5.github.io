@@ -21,7 +21,7 @@ comments: false
 ## Demo
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B7o245tZOTw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-During my time at Shapescape, I was taked with making a tool that would allow the non-technical staff to be able to upload, download, sort, tag, search, and view all of our assets which included 3d geometry (using Three.JS), 2d images, sound files (uncomplete), and schematics (uncomplete). I focused heavily on trying to make an attractive UI with simple UX design in order to make the application as easy to use.
+During my time at Shapescape, I was tasked with making a tool that would allow the non-technical staff to be able to upload, download, sort, tag, search, and view all of our assets which included 3d geometry (using Three.JS), 2d images, sound files (uncomplete), and schematics (uncomplete). I focused heavily on trying to make an attractive UI with simple UX design in order to make the application as easy to use.
 
 **Technologies Used:** The major technologies used were VueJS, ElectronJS, Three.JS, and, of course, JavaScript itself.
 
