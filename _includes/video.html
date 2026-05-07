@@ -1,0 +1,8 @@
+<div class="post-video">
+  <div class="post-video-frame">
+    <video autoplay muted loop playsinline>
+      <source src="{{ include.src }}" type="video/mp4">
+    </video>
+  </div>
+  {% if include.cap %}<p class="post-video-caption">{{ include.cap }}</p>{% endif %}
+</div>

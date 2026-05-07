@@ -1,0 +1,14 @@
+<div class="collage collage-two-col">
+  <figure>
+    <a href="{{ include.img1 }}" class="collage-img" title="{{ include.cap1 }}">
+      <img src="{{ include.img1 }}" alt="{{ include.cap1 }}">
+    </a>
+    {% if include.cap1 %}<figcaption>{{ include.cap1 }}</figcaption>{% endif %}
+  </figure>
+  <figure>
+    <a href="{{ include.img2 }}" class="collage-img" title="{{ include.cap2 }}">
+      <img src="{{ include.img2 }}" alt="{{ include.cap2 }}">
+    </a>
+    {% if include.cap2 %}<figcaption>{{ include.cap2 }}</figcaption>{% endif %}
+  </figure>
+</div>
