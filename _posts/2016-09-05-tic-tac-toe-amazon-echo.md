@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Voice-Controlled Tic-Tac-Toe + Amazon Echo"
-date: 2016-09-05
+date: 2014-12-27
 excerpt: "During high school, the Amazon Echo had just come out, and for my school's science fair I wanted to make a voice-controlled tic tac toe game... so I did!"
 project: true
 img: https://i.imgur.com/5S8RYbl.jpg

@@ -1,3 +1,8 @@
+// Remove whitespace-only paragraphs Jekyll generates around includes
+document.querySelectorAll('p').forEach(function(p) {
+    if (p.innerHTML.trim() === '') p.style.display = 'none';
+});
+
 // dl-menu options
 $(function() {
   $( '#dl-menu' ).dlmenu({
@@ -7,8 +12,8 @@ $(function() {
 // Need this to show animation when go back in browser
 window.onunload = function() {};
 
-// Add lightbox class to all image links
-$("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+// Add lightbox class to all image links (exclude collage images)
+$("a[href$='.jpg']:not(.collage-img),a[href$='.jpeg']:not(.collage-img),a[href$='.JPG']:not(.collage-img),a[href$='.png']:not(.collage-img),a[href$='.gif']:not(.collage-img)").addClass("image-popup");
 
 // FitVids options
 $(function() {
@@ -38,6 +43,16 @@ $(document).ready(function() {
         arrowColor: '#000',
         goupSpeed: 'normal'
     });
+	// Collage galleries — each .collage is its own independent gallery
+	$('.collage').each(function() {
+		$(this).find('a.collage-img').magnificPopup({
+			type: 'image',
+			gallery: { enabled: true, navigateByImgClick: true, preload: [0, 1] },
+			image: { titleSrc: 'title' },
+			removalDelay: 300,
+			mainClass: 'mfp-fade'
+		});
+	});
 	$('.image-popup').magnificPopup({
     type: 'image',
     tLoading: 'Loading image #%curr%...',

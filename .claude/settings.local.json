@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle install *)",
+      "PowerShell(Get-Command bundle, ruby, gem -ErrorAction SilentlyContinue)",
+      "PowerShell($env:PATH -split ';' | Where-Object { $_ -match 'ruby|gem|bundle' })"
+    ]
+  }
+}
